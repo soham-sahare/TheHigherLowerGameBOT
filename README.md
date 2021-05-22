@@ -32,7 +32,7 @@ For example, a title: http://sohamsahare123.pythonanywhere.com/api/v1/resources/
 ]
 ```
 
-For example, a search volumne: http://sohamsahare123.pythonanywhere.com/api/v1/resources/data/searchvolume/ferrari
+For example, a search volume: http://sohamsahare123.pythonanywhere.com/api/v1/resources/data/searchvolume/ferrari
 
 ```javascript
 2240000

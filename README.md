@@ -1,14 +1,30 @@
-# The Higher Lower Game API
+# The Higher Lower Game BOT
 
-## Overview
+# BOT
+
+This is bot is built using selenium webdriver.
+
+### To install dependencies
+```
+pip install -r requirements.txt
+```
+
+### To run 
+```
+python3 main.py
+```
+
+# API
+
+### Overview
 
 This API provides all the data from [The Higher Lower Game](https://www.higherlowergame.com/) collected using Data Scraping.
 
-## Design
+### Design
 
 The v1 API is essentially a dump of in-memory data structures. We know, what works great locally in memory isn't so hot over the network. 
 
-## Items
+### Items
 
 Search Volumne count, All Data are just items. They're live under `/api/v1/resources/data/all`.
 

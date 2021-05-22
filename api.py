@@ -59,10 +59,10 @@ def api_filter_title(title):
     return jsonify(results)
 
 
-@app.route('/api/v1/resources/data/searchvolume/<search>', methods=['GET'])
-def api_filter_search(search):
+@app.route('/api/v1/resources/data/searchvolume/<title>', methods=['GET'])
+def api_filter_search(title):
 
-    title = search
+    title = title.lower()
 
     query = "SELECT * FROM higherlowerdata WHERE"
     to_filter = []

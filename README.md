@@ -30,7 +30,7 @@ Search Volumne count, All Data are just items. They're live under `/api/v1/resou
 
 API Endpoints
 
-API | Description
+API Endpoints | Description
 ------|------------
 /api/v1/resources/data/all | Dumps all the data.
 /api/v1/resources/data/title/<title> | Dumps the data for particular title.

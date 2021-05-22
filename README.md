@@ -19,7 +19,8 @@ API | Description
 /api/v1/resources/data/all | Dumps all the data.
 /api/v1/resources/data/title/<title> | Dumps the data for particular title.
 /api/v1/resources/data/searchvolume/<title> | Dumps the search volumne for particular title.
-
+/api/v1/resources/data/higherlower/<title1>/<title2> | Returns Higher or Lower (Higher if Search results for title2 > title1 and vice versa)
+  
 For example, a title: http://sohamsahare123.pythonanywhere.com/api/v1/resources/data/title/ferrari
 
 ```javascript
@@ -36,4 +37,10 @@ For example, a search volume: http://sohamsahare123.pythonanywhere.com/api/v1/re
 
 ```javascript
 2240000
+```
+  
+For example, a higherlower: http://127.0.0.1:5000/api/v1/resources/data/higherlower/tesla/ferrari
+  
+ ```javascript
+Lower
 ```
